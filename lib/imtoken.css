@@ -1,0 +1,19 @@
+/* https://lf-scm-cn.feishucdn.com/ccm/pc/web/resource/bear/css/1468.f95aa239da789bbf4f81.css */
+html {
+    --imtoken-profile-bg-hover: var(--N200);
+    --imtoken-profile-bg-normal: var(--N50);
+    --imtoken-profile-bg-press: var(--N200);
+    --imtoken-profile-icon-normal: var(--N700);
+    --imtoken-profile-text-normal: var(--N800);
+}
+
+html[data-theme=dark] {
+    --imtoken-profile-bg-hover: var(--N200);
+    --imtoken-profile-bg-normal: var(--N50);
+    --imtoken-profile-bg-press: var(--N200);
+    --imtoken-profile-icon-normal: var(--N700);
+    --imtoken-profile-text-normal: var(--N800);
+    --imtoken-profile-bg-hover: var(--N300);
+    --imtoken-profile-bg-normal: var(--N200);
+    --imtoken-profile-bg-press: var(--N300);
+}

@@ -1,0 +1,98 @@
+:root {
+    --udtoken-tag-bg-kjr-turquoise-solid: #acffff;
+    --udtoken-tag-bg-kjr-turquoise-hover: #88e9e9;
+}
+
+:root[data-ud-theme-mode='dark'] {
+    --udtoken-tag-bg-kjr-turquoise-solid: #173b3b;
+    --udtoken-tag-bg-kjr-turquoise-hover: #286464;
+}
+
+
+#customDatePickerPop {
+    .customDatePicker > div {
+        justify-content: center;
+    }
+    .semi-popover-wrapper {
+        opacity: 0.7;
+    }
+}
+
+.groupHeader {
+    position: sticky;
+    top: 0;
+    padding: 4px;
+    border-radius: 4px;
+    background: linear-gradient(170deg, var(--udtoken-tag-bg-blue-solid), var(--bg-body) 60%);
+    color: var(--udtoken-tag-text-s-blue);
+
+    &.clickable {
+        cursor: pointer;
+
+        &:hover {
+            background: linear-gradient(170deg, var(--udtoken-tag-bg-blue-hover), var(--bg-body) 60%);
+        }
+    }
+    &.kjrSpecial {
+        background: linear-gradient(170deg, var(--udtoken-tag-bg-kjr-turquoise-solid), var(--bg-body) 60%);
+        color: var(--udtoken-tag-text-s-turquoise);
+        &.clickable {
+            cursor: pointer;
+
+            &:hover {
+                background: linear-gradient(170deg, var(--udtoken-tag-bg-kjr-turquoise-hover), var(--bg-body) 60%);
+            }
+        }
+    }
+
+    &.redClickable {
+        background: linear-gradient(170deg, var(--udtoken-tag-bg-red-solid), var(--bg-body) 60%);
+        color: var(--udtoken-tag-text-s-red);
+
+        cursor: pointer;
+
+        &:hover {
+            background: linear-gradient(170deg, var(--udtoken-tag-bg-red-hover), var(--bg-body) 60%);
+        }
+    }
+}
+
+.importPreview {
+    color: var(--text-caption);
+
+    .ud__checkbox__label-content {
+        color: var(--text-caption);
+    }
+}
+
+body {
+    margin: 0;
+    color: var(--semi-color-text-0);
+}
+
+#__next {
+    .semi-switch-checked {
+        background-color: var(--semi-color-info);
+    }
+
+    .semi-switch-checked:hover {
+        background-color: var(--semi-color-info-hover);
+    }
+
+    .semi-switch-active {
+        background-color: var(--semi-color-info-active);
+    }
+
+    .semi-switch-disabled.semi-switch-checked {
+        background-color: var(--semi-color-info-disabled);
+    }
+
+    .semi-switch-loading.semi-switch-checked {
+        background-color: var(--semi-color-info-hover);
+    }
+    font-family: LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Tahoma, "PingFang SC", "Microsoft Yahei", Arial, "Hiragino Sans GB", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.semi-tooltip-content .semi-icon svg {
+    vertical-align: -0.14em;
+}

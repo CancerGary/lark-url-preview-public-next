@@ -1,0 +1,9 @@
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+  "type": "url_verification",
+  "challenge": "123"
+}
+
+###
